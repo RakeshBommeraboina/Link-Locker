@@ -66,7 +66,7 @@ export default function Sidebar({ filter, setFilter }) {
 
      
 
-      </div>
+      
     </aside>
   );
 }
