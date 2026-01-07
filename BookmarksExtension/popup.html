@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Memory Capture</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 12px;
+        width: 200px;
+      }
+      button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        background: #4c8bf5;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      button:hover {
+        background: #3f76d1;
+      }
+      #status {
+        margin-top: 10px;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="capturePage">Capture Page</button>
+    <button id="captureSelection">Capture Selection</button>
+
+    <p id="status"></p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
