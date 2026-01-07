@@ -1,6 +1,6 @@
 // src/components/MemoryGrid.jsx
 import MemoryCard from "./MemoryCard";
-import { deleteMemory } from "../api/memoryapi";
+import { deleteMemory } from "../api/memoryApi";
 
 export default function MemoryGrid({ memories, loading, onDelete }) {
   if (loading) return <p>Loading memories...</p>;
