@@ -64,8 +64,6 @@ export default function Sidebar({ filter, setFilter }) {
         })}
       </nav>
 
-     
-
       {/* Footer */}
       <div className="px-6 py-4 border-t text-xs text-gray-400">
         © {new Date().getFullYear()} Memories
