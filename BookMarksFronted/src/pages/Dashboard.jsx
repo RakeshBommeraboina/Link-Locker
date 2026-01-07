@@ -7,7 +7,7 @@ import {
   getAllMemories,
   deleteMemory,
   searchMemories, // ✅ MISSING IMPORT FIXED
-} from "../api/memoryapi";
+} from "../api/memoryApi";
 
 export default function Dashboard({ onLogout }) {
   const [memories, setMemories] = useState([]);
